@@ -1,0 +1,5 @@
+#Meta.Name: "Hello World"
+
+#Block(Main).Start
+    echo "Hello World!"
+#Block(Main).End
