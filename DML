@@ -1,0 +1,3 @@
+PROCEDURE_FORM MAIN
+        PRINT/NOWAIT ("Hello world")
+END_FORM
