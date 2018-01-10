@@ -1,0 +1,4 @@
+PROGRAM HELLO
+BEGIN
+  PRINT("Hello World!")
+END PROGRAM
