@@ -1,0 +1,2 @@
+export Executable
+run(args) = print "Hello, world!"
