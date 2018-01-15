@@ -1,0 +1,2 @@
+WRITE (6,'('' Hello World!'')')
+       END
