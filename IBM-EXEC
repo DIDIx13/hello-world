@@ -1,0 +1,5 @@
+&CONTROL
+*
+&TYPE Hello World!
+*
+&EXIT 0
