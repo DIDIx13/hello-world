@@ -1,0 +1,4 @@
+static main(void)
+{
+  Message("Hello World!");
+}
