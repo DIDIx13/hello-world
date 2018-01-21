@@ -1,0 +1,14 @@
+/ "Hello World!" SAY
+
+; 2. in a cyborg:
+
+ON OUTCHAT {
+    {  "Hello World!" SAY
+    } CHATSTR "say it" == IF
+}
+
+; 3. in a room script:
+
+ON SELECT {
+    "Hello World!" SAY
+}
