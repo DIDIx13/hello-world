@@ -1,0 +1,3 @@
+use sys;
+
+sys::print("Hello, world!\n");
