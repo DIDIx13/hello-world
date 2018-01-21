@@ -1,0 +1,4 @@
+Hello:Start
+  Msg:Add("Hello", "Ok")
+    Hello World!
+  Return
