@@ -1,0 +1,8 @@
+program Hello_World;
+ 
+ uses
+    QDialogs;
+ 
+ begin
+   ShowMessage('Hello World');
+ end.
