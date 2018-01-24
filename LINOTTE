@@ -1,0 +1,3 @@
+BonjourLeMonde:
+   début
+     affiche "Hello World!"
