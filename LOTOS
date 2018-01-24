@@ -1,0 +1,4 @@
+process HelloWorld [v]: exit :=
+  v! "Hello World!";
+  exit
+endproc
