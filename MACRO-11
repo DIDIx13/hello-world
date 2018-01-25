@@ -1,0 +1,6 @@
+
+        .MCALL  .EXIT,.PRINT
+START:  .PRINT  #$1
+        .EXIT
+$1:     .ASCIZ  /Hello, world!/
+        .END    START
