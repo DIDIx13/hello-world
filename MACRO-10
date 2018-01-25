@@ -1,0 +1,9 @@
+TITLE HELLO WORLD
+ENTRY OUTPUT
+SEARCH UUOSYM
+
+LAB:    ASCIZ /HELLO WORLD
+/
+OUTPUT: OUTSTR LAB              
+        MONRT.                          
+        END OUTPUT
