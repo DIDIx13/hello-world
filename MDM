@@ -1,0 +1,2 @@
+mdm.Dialogs.prompt("Hello World");
+mdm.Application.exit();
