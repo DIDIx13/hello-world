@@ -1,0 +1,4 @@
+void main()
+{
+  print(COLOR_WHITE,"Hello, World!\n");
+}
