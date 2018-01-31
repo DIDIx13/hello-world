@@ -1,0 +1,1 @@
+player.location:announce_all("Hello, world!");
