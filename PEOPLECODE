@@ -1,0 +1,1 @@
+&MsgText = MsgGetText(66666666, 999999999, "Hello World!");
