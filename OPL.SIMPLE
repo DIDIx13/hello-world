@@ -1,0 +1,4 @@
+PROC HELLO:
+  PRINT "Hello World!"
+  GET
+ENDP
