@@ -1,0 +1,32 @@
+PROC HELLO:
+  LOCAL M%
+  DO
+    REM Display menu bar
+    mINIT
+    mCARD "Sprache","Deutsch",%d,"English",%e
+    mCARD "Extras","Beenden",%x,"Info",%i
+    M%=MENU
+    REM process choosen function
+    IF M%=%d
+      REM Display german dialog box
+      REM with an ENTER button to continue
+      dBOX:(" ","Hallo Welt"," ","weiter",13)
+    ELSEIF M%=%e
+      REM Display english dialog box
+      REM with an ENTER button to continue
+      dBOX:(" ","Hello World"," ","continue",13)
+    ELSEIF M%=%i
+      REM Display copyright information ;-)
+      dBOX:("Info","(C) Klaus M&uuml;ller 0196","FrankfurtMain, Germany","",13)
+    ENDIF
+  UNTIL M%=%x
+ENDP
+
+PROC dBOX:(Z1$,Z2$,Z3$,Z4$,BUTTON%)
+  dINIT Z1$
+  dTEXT ""," ",0
+  dTEXT "",Z2$",$102
+  dTEXT "",Z3$,$202
+  dBUTTONS Z4$,BUTTON%
+  DIALOG
+ENDP
