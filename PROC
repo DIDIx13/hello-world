@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+EXEC SQL INCLUDE SQLCA;
+
+int main() {
+   char hello[15];
+   char *user = "the_user";
+   char *password = "the_password";
+   char *sid = "the_sid";
+
+   EXEC SQL CONNECT :user IDENTIFIED BY :password USING :sid;
+
+   EXEC SQL
+      SELECT 'Hello World' INTO :hello
+      FROM DUAL;
+
+   printf("%s\n", hello);
+
+   EXEC SQL COMMIT RELEASE;
+ 
+   return 0;
+}
