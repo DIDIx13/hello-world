@@ -1,1 +1,1 @@
-message "Hello World" view-as alert-box.
+hello :- display('Hello World!') , nl .
