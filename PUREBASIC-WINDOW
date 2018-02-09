@@ -1,0 +1,8 @@
+If OpenWindow(0, 216, 0, 268, 133,  #PB_Window_SystemMenu | #PB_Window_TitleBar | #PB_Window_ScreenCentered , "Hello World Window")
+ If CreateGadgetList(WindowID())
+   TextGadget(1, 100, 60, 60, 20, "Hello World!")
+ EndIf
+EndIf
+
+Repeat    ; Message Loop
+Until WaitWindowEvent() = #PB_EventCloseWindow
