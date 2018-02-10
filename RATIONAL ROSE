@@ -1,0 +1,3 @@
+Sub Main
+    RoseApp.WriteErrorLog "Hello, World!"	
+End Sub
