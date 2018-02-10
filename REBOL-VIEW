@@ -1,0 +1,4 @@
+rebol[]
+view layout[
+text "Hello World!"
+]
