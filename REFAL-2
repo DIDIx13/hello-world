@@ -1,0 +1,5 @@
+start
+entry go
+extrn PROUT
+go = <prout 'Hello, world!'>
+end
