@@ -1,0 +1,9 @@
+D msg             S             32    inz(*blank)
+D wait            S              1
+
+C                   eval      msg = 'Hello World'
+
+C     msg           dsply                   wait
+
+
+C                   eval      *inlr = *on
