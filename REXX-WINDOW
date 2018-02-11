@@ -1,0 +1,4 @@
+call RxFuncAdd 'SysLoadFuncs', 'RexxUtil', 'SysLoadFuncs'
+call SysLoadFuncs
+call RxMessageBox 'Hello World!', 'Hello World Window', 'OK', 'EXCLAMATION'
+exit
