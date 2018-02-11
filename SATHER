@@ -1,0 +1,3 @@
+    class HELLO is
+       main is #OUT + "Hello World!\n" end
+    end
