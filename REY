@@ -1,0 +1,6 @@
+korzystaj "Konsola";
+ 
+program
+{
+    PiszLinia("Hello World");
+}
