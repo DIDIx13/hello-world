@@ -1,0 +1,26 @@
+        .title hello
+term_name:      .ascid /SYS$INPUT/
+term_chan:      .blkw 1
+out_iosb:       .blkq 1
+msg:    .asciz  /Hello, world!/
+
+        .entry start,0
+
+        ; establish a channel for terminal I/O
+        $assign_s devnam=term_name,-
+                chan=term_chan
+        blbc r0,error
+
+        ; queue the I/O request
+        $qio_s chan=term_chan,-
+                func=#io$_writevblk,-
+                iosb=out_iosb,-
+                p1=msg,-
+                p2=#13
+        blbc r0,error
+
+        $exit_s ; normal exit
+
+error:  halt ; error condition
+
+        .end start
