@@ -1,0 +1,3 @@
+Private Sub Document_Open()
+    MsgBox "Hello world!"
+End Sub
