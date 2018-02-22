@@ -1,0 +1,2 @@
+import Console
+Console.write("Hello World!")
