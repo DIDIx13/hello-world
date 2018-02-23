@@ -1,0 +1,4 @@
+void main()
+{
+    bc.OutputToScreen("hello, world");
+}
