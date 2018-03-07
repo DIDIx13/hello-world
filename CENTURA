@@ -1,0 +1,8 @@
+Function: HelloWorld
+Description:
+Returns
+Parameters
+Static Variables
+Local variables
+Actions
+ Call SalMessageBox( 'Hello World','Message',MB_Ok)
