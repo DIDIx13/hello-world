@@ -22,12 +22,12 @@
 .imagebase      0x00400000
 .file alignment 0x00000200
 .stackreserve   0x00100000
-.subsystem      0x0003     // WINDOWS_CUI
-.corflags       0x00000001 //  ILONLY
+.subsystem      0x0003     
+.corflags       0x00000001 
 
 
 .class public abstract auto ansi sealed ILHW.Program
-  extends [mscorlib]System.Object // nope, not implicit P:
+  extends [mscorlib]System.Object 
 {
 
   .method public hidebysig static void Main(class [mscorlib]System.String[] args) cil managed
@@ -36,7 +36,7 @@
     .maxstack 1 
 
     ldstr "Hello, world!" // loads a string on the stack (it actually allocates it and puts the GC handle on the stack)
-    call void [mscorlib]System.Console::WriteLine(string) // this should be straightforward enough
+    call void [mscorlib]System.Console::WriteLine(string)
 
     ret
   }
