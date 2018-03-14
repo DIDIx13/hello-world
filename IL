@@ -35,7 +35,7 @@
     .entrypoint 
     .maxstack 1 
 
-    ldstr "Hello, world!" // loads a string on the stack (it actually allocates it and puts the GC handle on the stack)
+    ldstr "Hello, world!"
     call void [mscorlib]System.Console::WriteLine(string)
 
     ret
