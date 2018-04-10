@@ -1,0 +1,3 @@
+Variable        Msg,13,"Hello, World!"
+
+Write Msg
