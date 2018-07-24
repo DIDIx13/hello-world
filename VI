@@ -1,0 +1,5 @@
+vi: $  y a :
+vi: $-1y b :
+vi: @b :
+put a |@b
+Hello World
