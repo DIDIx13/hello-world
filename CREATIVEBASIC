@@ -1,0 +1,11 @@
+OPENCONSOLE
+ 
+PRINT"Hello world!"
+ 
+PRINT:PRINT:PRINT"Press any key to end."
+ 
+DO:UNTIL INKEY$<>""
+ 
+CLOSECONSOLE
+ 
+END
