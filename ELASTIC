@@ -1,0 +1,7 @@
+package hello;
+     import basic;
+     function hello()
+    {
+        basic.print( "Hello world!\n" );
+    }
+    hello();
