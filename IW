@@ -1,0 +1,9 @@
+OPENCONSOLE
+ 
+PRINT"Hello world!"
+
+DO:UNTIL INKEY$<>""
+ 
+CLOSECONSOLE
+ 
+END
